@@ -1,0 +1,3 @@
+add_subdirectory(ITKIntroduction)
+add_subdirectory(ArrayFireIntroduction)
+add_subdirectory(ITKVideoPipeline)
