@@ -11,4 +11,4 @@ be used from ArrayFire applications.
 Source code examples are distributed under the Apache 2.0 License.
 
 Note: This project has been tailored using the
-[OpenCV-Tutorial(https://github.com/InsightSoftwareConsortium/ITK-OpenCV-Bridge-Tutorial) as reference.
+[OpenCV-Tutorial](https://github.com/InsightSoftwareConsortium/ITK-OpenCV-Bridge-Tutorial) as reference.
