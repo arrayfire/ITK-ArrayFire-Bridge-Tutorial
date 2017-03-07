@@ -54,7 +54,7 @@ int main( int argc, char * argv [] )
     try {
         reader->Update(); //Without Update call, GetOutput will return garbage pointer
 
-        af::array inputImage = itk::ArrayFireImageBridge::ITKImagetoAfArray(reader->GetOutput());
+        af::array inputImage = itk::ArrayFireImageBridge::ITKImageToAfArray(reader->GetOutput());
         af::array outputImage = af::medfilt(inputImage, atoi(argv[3]), atoi(argv[4]));
 
         ImageType::Pointer itkImg = itk::ArrayFireImageBridge::AfArrayToITKImage<ImageType>(outputImage);
